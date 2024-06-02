@@ -1,0 +1,479 @@
+<!Doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title>Camper Website</title>
+<style>
+.bus{
+padding-top:15px;
+flex-wrap: wrap;
+padding-left:30px;
+}
+.bus a{
+flex-wrap: wrap;
+text-decoration:none;
+}
+.bus a:visited{
+color:black;
+flex-wrap: wrap;
+}
+header{
+background-color:#b6b6b6b3;
+height:75px;
+width:100%;
+flex-wrap: wrap;
+position:sticky;
+top:0;
+z-index:1;
+}
+ul{
+display:inline-flex;
+float:right;
+flex-wrap: wrap;
+list-style-type:none;
+}
+ul li{
+padding-top:35px;
+padding:20px;
+font-size:20px;
+flex-wrap: wrap;
+}
+ul li a:hover{
+color:white;
+flex-wrap: wrap;
+text-decoration:none;
+}
+ul li a{
+flex-wrap: wrap;
+text-decoration:none;
+}
+.hero_area {
+height:900px;
+background-image: url("https://i.pinimg.com/originals/b3/9c/0c/b39c0c466fa2e880bcf8b904305041aa.gif"
+);
+width:100%;
+background-size: cover;
+background-repeat: no-repeat;
+flex-wrap: wrap;
+}
+.para{
+position:absolute;
+top:0px;
+font-size:30px;
+padding-top:500px;
+flex-wrap: wrap;
+padding-left:350px;
+text-align:center;
+}
+img{
+padding-left:850px;
+padding-top:50px;
+border-radius:150px;
+height:500px;
+flex-wrap: wrap;
+}
+.hr-lines:before{
+content:" ";
+display: block;
+height: 2px;
+width: 130px;
+flex-wrap: wrap;
+position: absolute;
+top:50%;
+left: 0;
+background:black;
+}
+.hr-lines{
+position: relative;
+flex-wrap: wrap;
+}
+.hr-lines{
+position: relative;
+max-width:500px;
+margin:50px auto;
+text-align: center;
+flex-wrap: wrap;
+}
+.hr-lines:after{
+content:" ";
+height: 2px;
+width: 130px;
+flex-wrap: wrap;
+background:black;
+display: block;
+position: absolute;
+top:50%;
+right: 0;
+}
+.row{
+padding:60px;
+flex-wrap: wrap;
+}
+.par{
+font-size:20px;
+flex-wrap: wrap;
+}
+.img-container-grid{
+display:flex;
+flex-wrap: wrap;
+}
+.smallsquare{
+max-width:20%;
+height:auto;
+flex:0 0 20%;
+padding-top:20%;
+flex-wrap: wrap;
+display:grid;
+position:relative;
+}
+.h_rectangle{
+max-width: 40%;
+flex: 0 0 40%;
+padding-top:20%;
+position:relative;
+flex-wrap: wrap;
+}
+.bigsquare{
+max-width:40%;
+height:auto;
+flex:0 0 40%;
+padding-top:40%;
+display:grid;
+flex-wrap: wrap;
+position:relative;
+}
+.bigsquare_blank{
+max-width:40%;
+height:auto;
+flex:0 0 40%;
+display:flex;
+flex-wrap: wrap;
+}
+.inner_square{
+max-width:50%;
+flex: 0 0 50%;
+height:50%;
+position:relative;
+flex-wrap: wrap;
+}
+.v_rectangle{
+max-width: 20%;
+flex: 0 0 20%;
+padding-top:40%;
+position:relative;
+flex-wrap: wrap;
+}
+.img-grid-c{
+width:100%;
+height:100%;
+top:0;
+left:0;
+position:absolute;
+object-fit:cover;
+object-position:center;
+flex-wrap: wrap;
+padding:2.5px;
+}
+.box-icon {
+position: relative;
+flex-wrap: wrap;
+}
+.box-icon > .image {
+position: relative;
+text-align: center;
+z-index: 2;
+margin: auto;
+width: 88px;
+height: 88px;
+border: 8px solid white;
+line-height: 88px;
+border-radius: 50%;
+background: white;
+vertical-align: middle;
+flex-wrap: wrap;
+}
+.box-icon > .image > i {
+font-size: 36px !important;
+color:black !important;
+line-height: 1;
+display: inline-block;
+flex-wrap: wrap;
+}
+.box-icon > .info {
+margin-top: -24px;
+background:black;
+color:white;
+flex-wrap: wrap;
+border: 1px solid #e0e0e0;
+padding:20px;
+}
+.box .space {
+height:50px;
+flex-wrap: wrap;
+}
+.row{
+position:relative;
+flex-wrap: wrap;
+vertical-align: middle;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+-webkit-transition-duration: 1.0s;
+transition-duration: 1.0s;
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;
+}
+.row:hover, .row:focus, .row:active {
+-webkit-transform: translateY(-8px);
+transform: translateY(-8px);
+}
+.ani{
+/* position:absolute; */
+padding:60px;
+margin:100px;
+flex-wrap: wrap;
+border-radius:30px;
+}
+.har{
+color:blue;
+width:50px;
+height:50px;
+bottom:20px;
+right:20px;
+position:fixed;
+flex-wrap: wrap;
+}
+.v{
+background-image: url(https://i.pinimg.com/564x/27/8a/5a/278a5a3e60aba751fd4bc4aa39d9e42d.jpg);
+height: 500px;
+width: 600px;
+background-size: cover;
+background-repeat: no-repeat;
+flex-wrap: wrap;
+}
+footer {
+background-color: #212121;
+padding: .75em 0;
+box-shadow: 0 -6px 8px rgba(0,0,0,0.20), 0 -3px 3px rgba(0,0,0,0.24);
+flex-wrap: wrap;
+}
+footer p {
+text-align: center;
+color: #f4f4f4;
+flex-wrap: wrap;
+}
+.pass{
+font-size: 18px;
+flex-wrap: wrap;
+}
+.button{
+border-radius:10px;
+height:35px;
+flex-wrap: wrap;
+}
+.button a{
+text-decoration:none;
+flex-wrap: wrap;
+}
+.button a:visited{
+color:white;
+flex-wrap: wrap;
+}
+.desk{
+position:absolute;
+top:0px;
+font-size:40px;
+padding-top:300px;
+flex-wrap: wrap;
+padding-left:600px;
+}
+</style>
+</head>
+<body>
+<header>
+  <ul>
+    <li><i><a href="#"><b>Home</b></a></i></li>
+    <li><i><a href="#About Us"><b>About Us</b></a></i></li>
+    <li><i><a href="#Locations"><b>Location</b></a></i></li>
+    <li><i><a href="#Why Us"><b>Why Us</b></a></i></li>
+    <li><button class="btn btn-dark"><a href="#Book Now"><b>Book Now</b></a></button></li>
+  </ul>
+<div class="bus">
+  <h3 style="color:black"><i><b><a href="#">CAMPER</a></b></i></h3>
+</div>
+</header> 
+  <div class="hero_area">
+    <div class="desk w3-container w3-center w3-animate-top">
+        <p style="color:white"><b>Enjoy Your<br/>Camping Time</b></p>
+     </div>
+<div class="para w3-container w3-center w3-animate-top">
+    <h4 style="color:white">When you're camping, you get a chance to get in touch with nature, encounter wildlife and see the <br/> away from the bright lights of the big city.Campers enjoy fun evening programs and <br/>sleep in our cabins.All cabins are seperated by both age and gender ensuring a fun atmosphere.<br/>   
+Some like to disconnect from technology and reconnect with nature.
+ <br/><br/>
+<button class="button btn btn-danger"><a href="#Locations">Explore</button></a>
+    </h4>
+  </div>
+</div>
+<br/>        
+  <div class="row"  id="About Us">
+<h2 class="hr-lines"><b>About Us</b></h2>
+<p class="par">Spending the night away from home distinguishes camping from day-tripping, picnicking, and other outdoor activities.With the stars shining overhead and your campfire blazing away, night time offers plenty of great camping activities. The options are nearly limitless as to what you can do at night in the great outdoors.Studies have shown that camping can reset your internal body clock, known as the circadian rhythm, and improve sleep quality. Exposure to natural light during the day and the absence of artificial lighting at night help regulate sleep patterns and promote a more restful slumber.
+     </p>
+</div>
+<br/>
+<h2 class="hr-lines text-black"><b>Location</b></h2>
+ <div class="container" id="Locations">
+   <div class="img-container-grid">
+     <div class="smallsquare">
+       <img src="https://i.pinimg.com/564x/4a/5d/95/4a5d95cf4586491bf10cb4cd4fa45131.jpg" class="img-grid-c">
+     </div>
+        <div class="smallsquare">
+          <img src="https://i.pinimg.com/564x/8d/7b/f1/8d7bf14ba3eb7c303a66cdd365179aa3.jpg" class="img-grid-c">
+          </div>
+        <div class="h_rectangle">
+          <img src="https://i.pinimg.com/736x/7d/c1/8b/7dc18b1046f1f65945c1d4840a9299da.jpg" class="img-grid-c"> 
+        </div>
+          <div class="smallsquare">
+            <img src="https://i.pinimg.com/564x/c0/e3/3a/c0e33a44de9e0c71750385abe7f3624d.jpg" class="img-grid-c">
+           </div>
+              <div class="bigsquare">
+                 <img src="https://i.pinimg.com/564x/49/43/ca/4943ca2a30063c56836e1bdf6830bd56.jpg" class="img-grid-c">
+               </div>
+          <div class="bigsquare_blank">
+             <div class="inner_square">
+                <img src="https://i.pinimg.com/564x/ff/d7/39/ffd7396896e4ffc5d81d6a5f692d632b.jpg" class="img-grid-c">
+              </div>
+            <div class="inner_square"> 
+               <img src="https://i.pinimg.com/564x/cf/9e/66/cf9e66ee1e7526f03d47f73aacca3e53.jpg" class="img-grid-c">
+             </div>
+            <div class="inner_square">
+              <img src="https://i.pinimg.com/564x/89/c5/2b/89c52b7541a7473b61bd08aa294af1ed.jpg" class="img-grid-c">
+             </div>
+            <div class="inner_square">
+<img src="https://i.pinimg.com/564x/fe/1e/e8/fe1ee8f31c9c0a6dd204ad9bd70545ab.jpg" class="img-grid-c">
+            </div>
+          </div>
+          <div class="v_rectangle">
+             <img src="https://i.pinimg.com/564x/9c/af/b1/9cafb18144784cfe70716ba3f0bd6ae3.jpg" class="img-grid-c">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <br/><br/>
+<h2 class="hr-lines"><b>Why Us ?</b></h2>
+<div class="row" id="Why Us">
+   <div class="col-sm-2"></div>
+     <div class="col-sm-8">
+        <div class="box">							
+	   <div class="box-icon">
+	      <div class="image"><i class="fa-solid fa-question"></i></div>
+		 <div class="info">
+<br/><br/>
+			<p>Anyone you ask has a different reason for camping. Some like to disconnect from technology and reconnect with nature. Some families go camping to revitalize their relationships, away from all the distractions at home. Many youth organizations teach young people how to build a fire, pitch a tent, or read a compass. Camping means different things to different people.
+<br/>
+We provide 
+  <ol>
+     <li>Camping Experience not just stay!</li>
+     <li>Verified and Private Campsites!</li>
+     <li>Best and Trained Experts to be with you!</li>
+     <li>For us your Safety is First!</li>
+  </ol>
+</p>
+			                            
+	               </div>
+		     </div> 
+		    </div>  
+                 <div class="col-sm-2"></div>
+	      </div> 
+	    </div>
+         </div>
+<br/><br/>
+<h2 class="hr-lines text-black"><b>Book Now</b></h2>
+<div class="row" id="Book Now">
+     <div class="col-sm-4 ani" style="border:2px solid black">
+      <form>
+       <label style="color:#FC6736"><b>First Name:</b></label>
+           <input type="text" class="form-control" placeholder="Your name..">
+      <label style="color:#FC6736"><b>Destination:</b></label>
+                 <select id="country" class="form-control" name="country">
+            <option value="Rishikesh">Rishikesh</option>
+            <option value="Kedarnath">Kedarnath</option>
+            <option value="Coorg">Coorg</option>
+        </select>
+     <label style="color:#FC6736"><b>Email:</b></label>
+        <input type="text" class="form-control" placeholder="example@gmail.com">
+    <label style="color:#FC6736"><b>Phone Number:</b></label>
+        <input type="number" class="form-control" placeholder="eg.123456789">
+   <label style="color:#FC6736"><b>Date:</b></label>
+        <input type="date" class="form-control">
+   <label style="color:#FC6736"><b>Gender:</b></label><br/>
+     <label>Male</label>
+         <input type="radio" id="male" name="Gender" value="Male">
+   <label>Female</label>
+         <input type="radio"  id="Female" name="Gender" value="Female">
+<br/><br/>
+<label style="color:#FC6736"><b>No of Persons:</b></label>
+       <select id="No of Persons" name="No of Persons">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+             <option value="4">4</option>
+       </select>
+<br/><br/>
+ <div class="btn btn-outline-success">Submit</div>
+     </form>
+    </div>
+<div class="col-sm-6">
+     <div class="v"></div>
+  </div>
+</div>
+</div>
+<br/>
+<br/> 
+<div class="har"><a href="#"><i class="fa-solid fa-angle-up"></i></a></div>
+<footer>
+    <div class="container">
+ <a href="#"><p class="pass">Camper <i class="fab fa-free-code-camp"></i> &copy; 2018. All code subject to <i class="fab fa-creative-commons"></i> Creative Commons.<br>All products &copy; 2012-2018 Stanley Black & Decker, Inc. All rights reserved.</p></a>
+    </div> 
+
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
